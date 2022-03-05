@@ -1,0 +1,55 @@
+body {
+  width: 100vw;
+  height: 100vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  background: #f15245;
+  overflow: hidden;
+}
+
+div.contagem {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  border: .2rem solid #FFF;
+  border-radius: 20px;
+  width: 80%;
+  height: 120px;
+  margin: 0 auto;
+  text-align: center;
+  color: #FFF;
+  font-size: 2rem;
+  font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+
+}
+
+.fonte {
+  width: 100vw;
+  height: 30px;
+  text-align: center;
+  padding: 2rem 1rem;
+  margin: 0;
+  margin-bottom: 1rem;
+}
+div.fonte p, 
+div.fonte a, 
+div.fonte a strong, 
+div.fonte {
+  color: #FFF;
+  font-size: .9rem;
+  font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+
+div.fonte p {
+  margin: 0.5rem;
+}
+
+div.fonte a {
+  font-weight: 200;
+}
+
+div.fonte a strong {
+  font-weight: 800;
+}
