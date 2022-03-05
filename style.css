@@ -13,15 +13,24 @@ div.contagem {
   display: flex;
   align-items: center;
   justify-content: center;
+  flex-direction: column;
   border: .2rem solid #FFF;
   border-radius: 20px;
   width: 80%;
-  height: 120px;
   margin: 0 auto;
-  text-align: center;
+  padding: 1rem;
+}
+
+.contagem p {
   color: #FFF;
   font-size: 2rem;
   font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+  margin: 0.2rem;
+}
+
+p.dias {
+  font-weight: bold;
+  font-size: 2.5rem;
 }
 
 .fonte {
